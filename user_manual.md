@@ -245,31 +245,6 @@ Check the Command Prompt output for detailed error messages when issues occur.
 - Copy extracted information from the interface
 - Use browser developer tools for data extraction
 
-## ❓ Frequently Asked Questions
-
-### Q: Can I use a different email provider?
-**A**: Currently, the application is designed for Gmail. Other providers would require code modifications.
-
-### Q: What if the AI misidentifies the car type?
-**A**: The car type is automatically detected from the image. For now, it's a dummy model. The real CV model will provide more accurate results.
-
-### Q: How accurate is the text extraction?
-**A**: GPT-4o mini provides high accuracy for well-structured descriptions. Include detailed information for best results.
-
-### Q: Can I edit the extracted information before sending?
-**A**: Currently, the extracted information is sent as-is. Future versions may include editing capabilities.
-
-### Q: Is my data stored anywhere?
-**A**: No, all data is processed in memory and sent via email. No persistent storage is implemented.
-
-### Q: What happens if the email fails to send?
-**A**: The application will show an error message. Check your Gmail configuration and try again.
-
-### Q: Can I use this for other types of vehicles?
-**A**: The current dummy model is designed for cars. The real CV model can be trained for other vehicle types.
-
-### Q: How do I update the application?
-**A**: Pull the latest code from the repository and reinstall dependencies if needed.
 
 ## 📞 Getting Help
 

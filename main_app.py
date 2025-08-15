@@ -260,7 +260,8 @@ def main():
                         # Display extracted information
                         st.success("✅ Information extracted successfully!")
                         
-                        st.json(car_info)
+                        # st.json(car_info)
+                        st.text(json.dumps(car_info, indent=4, ensure_ascii=False))
                     else:
                         st.error("❌ Failed to extract car information")
     

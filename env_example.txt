@@ -7,9 +7,9 @@
 # ========================================
 # Gmail Configuration (for testing)
 # ========================================
-# You can use msamy@orion360.com for testing, but you need your own app password
-GMAIL_USER=msamy@orion360.com
-GMAIL_PASSWORD=your_gmail_app_password_here
+# You can use orion360cars@gmail.com for testing, but you need your own app password
+GMAIL_USER=orion360cars@gmail.com
+GMAIL_PASSWORD=Orion_360
 
 # ========================================
 # Azure OpenAI Configuration
@@ -51,4 +51,4 @@ SUPPORTED_IMAGE_FORMATS=jpg,jpeg,png,bmp
 # - Never commit your .env file to version control
 # - Keep your API keys secure and private
 # - Use app passwords, not regular passwords for Gmail
-# - The msamy@orion360.com email is provided for testing purposes only
+# - The orion360cars@gmail.com email is provided for testing purposes only
