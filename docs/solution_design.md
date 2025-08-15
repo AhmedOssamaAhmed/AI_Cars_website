@@ -4,27 +4,27 @@
 
 ```mermaid
 graph TB
-    subgraph "User Interface Layer"
+    subgraph UserInterfaceLayer[User Interface Layer]
         UI[Streamlit Web App]
         Upload[Image Upload]
         TextInput[Text Description Input]
     end
     
-    subgraph "Processing Layer"
+    subgraph ProcessingLayer[Processing Layer]
         IC[Image Classifier]
         TP[Text Processor]
         AI[Azure OpenAI GPT-4o mini]
     end
     
-    subgraph "Data Layer"
+    subgraph DataLayer[Data Layer]
         JSON[Structured JSON]
         Image[Car Image]
         Metadata[Processing Metadata]
     end
     
-    subgraph "Output Layer"
+    subgraph OutputLayer[Output Layer]
         Email[Gmail SMTP]
-        Recipient[msamy@orion360.com]
+        Recipient[emails]
     end
     
     UI --> Upload
@@ -48,6 +48,8 @@ graph TB
     style TP fill:#e8f5e8
     style AI fill:#fff3e0
     style Email fill:#fce4ec
+
+
 ```
 
 ## Component Architecture
