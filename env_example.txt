@@ -1,0 +1,54 @@
+# ========================================
+# Car Selling Platform - Environment Variables
+# ========================================
+# Copy this file to .env and update with your actual credentials
+# cp env_example.txt .env
+
+# ========================================
+# Gmail Configuration (for testing)
+# ========================================
+# You can use msamy@orion360.com for testing, but you need your own app password
+GMAIL_USER=msamy@orion360.com
+GMAIL_PASSWORD=your_gmail_app_password_here
+
+# ========================================
+# Azure OpenAI Configuration
+# ========================================
+# ⚠️ IMPORTANT: Get your own API key from Azure OpenAI portal
+# DO NOT use any provided API keys for security reasons
+AZURE_OPENAI_ENDPOINT=https://orionopenai2-techtest.openai.azure.com
+AZURE_OPENAI_API_KEY=GET_YOUR_OWN_API_KEY_HERE
+AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o-mini-AO242
+AZURE_OPENAI_API_VERSION=2024-02-15-preview
+
+# ========================================
+# Application Settings
+# ========================================
+# Maximum image size in bytes (10MB)
+MAX_IMAGE_SIZE=10485760
+# Supported image formats
+SUPPORTED_IMAGE_FORMATS=jpg,jpeg,png,bmp
+
+# ========================================
+# How to Get Your Credentials
+# ========================================
+
+# Gmail App Password:
+# 1. Enable 2-Factor Authentication on your Gmail account
+# 2. Go to Google Account → Security → 2-Step Verification → App passwords
+# 3. Generate a password for "Mail"
+# 4. Use this password in GMAIL_PASSWORD above
+
+# Azure OpenAI API Key:
+# 1. Go to Azure OpenAI portal
+# 2. Navigate to your resource
+# 3. Go to "Keys and Endpoint" section
+# 4. Copy one of the keys and use it in AZURE_OPENAI_API_KEY above
+
+# ========================================
+# Security Notes
+# ========================================
+# - Never commit your .env file to version control
+# - Keep your API keys secure and private
+# - Use app passwords, not regular passwords for Gmail
+# - The msamy@orion360.com email is provided for testing purposes only
