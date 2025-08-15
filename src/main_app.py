@@ -6,10 +6,10 @@ from PIL import Image
 import json
 
 # Import custom modules
-from image_classifier import CarImageClassifier
-from text_processor import TextProcessor
-from email_sender import EmailSender
-from config import MAX_IMAGE_SIZE, SUPPORTED_IMAGE_FORMATS, validate_credentials
+from core.image_classifier import CarImageClassifier
+from core.text_processor import TextProcessor
+from core.email_sender import EmailSender
+from config.config import MAX_IMAGE_SIZE, SUPPORTED_IMAGE_FORMATS, validate_credentials
 
 # Page configuration
 st.set_page_config(

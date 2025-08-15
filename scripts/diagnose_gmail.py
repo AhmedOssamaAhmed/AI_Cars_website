@@ -4,12 +4,18 @@ Gmail Configuration Diagnostic Tool
 This script helps diagnose Gmail authentication issues.
 """
 
+import streamlit as st
+import smtplib
 import os
 import sys
-import smtplib
 import ssl
 from pathlib import Path
 from dotenv import load_dotenv
+
+# Add src to path for imports
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
+
+from config.config import GMAIL_USER, GMAIL_PASSWORD
 
 def check_env_file():
     """Check if .env file exists and load it."""
